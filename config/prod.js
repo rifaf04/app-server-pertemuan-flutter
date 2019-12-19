@@ -1,6 +1,8 @@
 module.exports = {
-  DB_URI: 'YOUR DB URI HERE',
-  SESSION_SECRET: 'SOME UNIQUE VALUE',
-  JWT_SECRET: 'SOME UNIQUE VALUE'
+  DB_URI: process.env.DB_URI,
+  SESSION_SECRET: process.env.SESSION_SECRET,
+  JWT_SECRET: process.env.JWT_SECRET
 }
+
+
 
